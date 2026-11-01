@@ -1,0 +1,119 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1020"><title>Quad A Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b1020;--card:rgba(255,255,255,.06);--bd:rgba(255,255,255,.12);--tx:#e8ecff;--mu:#9aa4c7;--a:#7c5cff;--b:#00d4ff;--ok:#22c55e;--warn:#f59e0b;--wait:#ec4899;--idle:#64748b}
+*{box-sizing:border-box}body{margin:0;font-family:'Hind Siliguri',system-ui,sans-serif;color:var(--tx);background:radial-gradient(1200px 600px at 10% -10%,#2a1b6b55,transparent),radial-gradient(900px 500px at 110% 10%,#00d4ff33,transparent),var(--bg);min-height:100vh}
+.wrap{max-width:1100px;margin:auto;padding:18px 16px 60px}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:18px}
+.logo{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,var(--a),var(--b));display:grid;place-items:center;font-weight:700;font-size:22px;box-shadow:0 0 24px #7c5cff88}
+h1{font-size:22px;margin:0}.sub{color:var(--mu);font-size:13px}
+.live{margin-left:auto;font-size:12px;padding:5px 10px;border-radius:99px;border:1px solid #22c55e66;color:#86efac;background:#22c55e1a;white-space:nowrap}
+.live:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--ok);margin-right:6px;animation:p 1.6s infinite}@keyframes p{50%{opacity:.3}}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:16px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+h2{font-size:16px;margin:26px 0 12px;color:#c7d0ff;letter-spacing:.3px}h2:before{content:"▍";color:var(--b)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.stat .v{font-size:30px;font-weight:700;background:linear-gradient(90deg,#fff,var(--b));-webkit-background-clip:text;color:transparent}.stat .l{color:var(--mu);font-size:13px}.stat .i{float:right;font-size:22px}
+.org{text-align:center}.node{display:inline-block;padding:10px 14px;border-radius:14px;border:1px solid var(--bd);background:#ffffff0d;margin:4px}.node b{display:block}.node small{color:var(--mu)}
+.node.top{border-color:#7c5cff88;box-shadow:0 0 18px #7c5cff44}.node.planned{border-style:dashed;opacity:.7}
+.line{width:2px;height:18px;margin:auto;background:linear-gradient(var(--a),var(--b))}
+.depts{display:flex;flex-wrap:wrap;justify-content:center;gap:4px;border-top:2px solid #7c5cff55;padding-top:10px;margin-top:0}
+.grid{display:grid;gap:12px}.dept .top{display:flex;align-items:center;gap:10px}.dept .ic{font-size:24px;width:42px;height:42px;border-radius:12px;background:#ffffff10;display:grid;place-items:center}
+.badge{margin-left:auto;font-size:12px;padding:4px 10px;border-radius:99px;font-weight:600;white-space:nowrap}
+.ok{background:#22c55e22;color:#86efac;border:1px solid #22c55e55}.warn{background:#f59e0b22;color:#fcd34d;border:1px solid #f59e0b55}.wait{background:#ec489922;color:#f9a8d4;border:1px solid #ec489955}.idle{background:#64748b33;color:#cbd5e1;border:1px solid #64748b66}
+.duty{color:var(--mu);font-size:13px;margin:8px 0}.next{font-size:14px}.bar{height:7px;border-radius:9px;background:#ffffff14;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--a),var(--b));border-radius:9px}
+.steps{display:grid;gap:10px}.step{display:flex;gap:12px;align-items:flex-start}.num{min-width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b));display:grid;place-items:center;font-weight:700}
+.note{margin-top:12px;border-left:3px solid var(--b);padding:10px 12px;background:#00d4ff12;border-radius:10px;font-size:14px}
+.todo{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--bd)}.todo:last-child{border:0}.chk{width:24px;height:24px;border-radius:8px;border:2px solid var(--a);flex:none;cursor:pointer;display:grid;place-items:center}.todo.done .chk{background:var(--a)}.todo.done .chk:after{content:"✓"}.todo.done span{text-decoration:line-through;color:var(--mu)}.todo small{display:block;color:var(--mu)}
+footer{color:var(--mu);font-size:12px;text-align:center;margin-top:30px}
+@media(min-width:760px){.stats{grid-template-columns:repeat(4,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(3,1fr)}h1{font-size:26px}}
+.rgrid{display:grid;gap:12px}.ph{color:#fcd34d;font-size:13px}.upd{color:var(--mu);font-size:12px;float:right}.kv{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--bd);font-size:14px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:6px;border-bottom:1px solid var(--bd);text-align:left}.empty{padding:14px;text-align:center;color:var(--mu);border:1px dashed var(--bd);border-radius:12px;margin:8px 0}
+@media(min-width:760px){.rgrid{grid-template-columns:repeat(3,1fr)}}
+.fin .stats{grid-template-columns:repeat(2,1fr)}.fin .stat .v{font-size:22px}.fin .stat small{display:block;color:var(--mu);font-size:11px;margin-top:4px}.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}.tw table{min-width:460px}.fin td .badge{margin:0}.fin .t2{display:grid;gap:12px;margin-top:12px}@media(min-width:760px){.fin .stats{grid-template-columns:repeat(4,1fr)}.fin .t2{grid-template-columns:3fr 2fr}}
+.rp-grid,.tk-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.rp-card,.tk-card{display:flex;flex-direction:column;gap:8px;min-width:0;overflow-wrap:anywhere}
+.tk-card[hidden],.tk-grp[hidden]{display:none}
+.rp-top,.tk-top{display:flex;align-items:flex-start;gap:10px}
+.rp-top>div,.tk-top>div{flex:1;min-width:0}
+.rp-top b,.tk-top b{font-size:15px;line-height:1.45}
+.rp-top .badge,.tk-top .badge{margin-left:0;flex:none}
+.rp-meta,.tk-meta{color:var(--mu);font-size:12px;margin-top:2px}
+.tk-up{margin-top:auto;padding-top:4px}
+.rp-ul{margin:0;padding-left:18px;font-size:13px;line-height:1.55}
+.rp-ul li{margin:2px 0}.rp-ul li::marker{color:var(--mu)}
+.rp-det{font-size:13px}
+.rp-det summary{cursor:pointer;min-height:36px;padding:8px 0;color:#c7d0ff}
+.rp-det table{border-collapse:collapse;width:100%;min-width:460px;font-size:12px}
+.rp-det th,.rp-det td{padding:6px 8px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top;overflow-wrap:normal}
+.rp-det th{color:var(--mu);font-weight:600}
+.rp-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:4px}.rp-links:empty{display:none}
+.rp-btn{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:99px;font-size:13px;font-weight:600;color:var(--tx);text-decoration:none;border:1px solid transparent;background:linear-gradient(var(--bg),var(--bg)) padding-box,linear-gradient(90deg,var(--a),var(--b)) border-box}
+.rp-btn:hover{filter:brightness(1.25)}
+.tk-sel{width:100%;max-width:320px;min-height:40px;padding:0 12px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:inherit;font-size:14px}
+.tk-sel option{background:#0b1020;color:#e8ecff}
+.tk-h{font-size:14px;color:var(--mu);margin:18px 0 10px}
+.tk-n{margin-left:4px;padding:0 8px;border-radius:99px;font-size:12px;background:var(--card);border:1px solid var(--bd)}
+.tk-due{align-self:flex-start;font-size:12px;padding:3px 10px;border-radius:99px;background:#f59e0b22;color:#fcd34d;border:1px solid #f59e0b55}
+.tk-l b{font-size:12px;color:var(--mu)}.tk-l ul{margin:2px 0 8px;padding-left:18px;line-height:1.5}
+@media(min-width:760px){.rp-grid,.tk-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style></head><body><div class="wrap" id="app">লোড হচ্ছে…</div>
+<script>
+const e=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const NA='<span class="ph">এখনো ডেটা আসেনি</span>';const v=x=>x==null?NA:e(x);
+const up=u=>`<span class="upd">সর্বশেষ আপডেট: ${u?e(u):'—'}</span>`;
+const pb=(lbl,cur,goal)=>`<div class="kv"><span>${lbl}</span><span>${cur==null?NA:e(cur)+' / '+goal.toLocaleString()}</span></div><div class="bar"><i style="width:${cur==null?0:Math.min(100,cur/goal*100)}%"></i></div>`;
+function results(R){const y=R.youtube,b=R.books,a=R.ai;
+const sold=b.platforms.some(p=>p.copies);
+return `<h2>ফলাফল</h2><div class="rgrid">
+<div class="card"><b>📈 YouTube</b>${up(y.updated)}
+<div class="kv"><span>সাবস্ক্রাইবার</span><span>${v(y.subscribers)}</span></div><div class="kv"><span>মোট ভিউ</span><span>${v(y.views)}</span></div><div class="kv"><span>ওয়াচ আওয়ার</span><span>${v(y.watch_hours)}</span></div>
+${y.videos.length?`<table><tr><th>ভিডিও</th><th>ধরন</th><th>ভিউ</th></tr>${y.videos.map(x=>`<tr><td>${e(x.title)}</td><td>${e(x.type)}</td><td>${v(x.views)}</td></tr>`).join('')}</table>`:'<div class="empty">ভিডিওভিত্তিক ভিউ: এখনো ডেটা আসেনি</div>'}
+<div style="margin-top:8px"><small class="duty">মনিটাইজেশন: ১,০০০ সাবস্ক্রাইবার + (৪,০০০ ওয়াচ আওয়ার অথবা ১ কোটি Shorts ভিউ)</small></div>
+${pb('সাবস্ক্রাইবার',y.subscribers,1000)}${pb('ওয়াচ আওয়ার',y.watch_hours,4000)}${pb('Shorts ভিউ',y.shorts_views,10000000)}</div>
+<div class="card"><b>📚 বই বিক্রি</b>${up(b.updated)}
+${sold?'':'<div class="empty">বিক্রি এখনো শুরু হয়নি</div>'}
+<table><tr><th>প্ল্যাটফর্ম</th><th>কপি</th><th>আয়</th><th>রেটিং</th></tr>${b.platforms.map(p=>`<tr><td>${e(p.name)}</td><td>${v(p.copies)}</td><td>${v(p.revenue)}</td><td>${p.rating==null?NA:e(p.rating)+'★ ('+v(p.reviews)+')'}</td></tr>`).join('')}</table></div>
+<div class="card"><b>🤖 AI ব্যবহার</b>${up(a.updated)}
+${a.tools.map(t=>`<div style="margin-top:10px"><div class="kv" style="border:0"><span>${e(t.name)}</span><span>${t.used_pct==null?'':e(t.used_pct)+'% ব্যবহৃত'}</span></div>${t.note?`<small class="duty">${e(t.note)}</small>`:(t.used_pct==null?NA:'')}<div class="bar"><i style="width:${t.used_pct||0}%"></i></div></div>`).join('')}</div></div>`}
+function finance(F){if(!F)return'';const b=(t,x)=>`<span class="badge ${e(t)}">${e(x)}</span>`;
+return `<h2 id="finance">Finance</h2><div class="fin"><div class="stats">${F.kpis.map(k=>`<div class="card stat"><span class="i">${k.icon}</span><div class="v">${e(k.value)}</div><div class="l">${e(k.label)}</div>${k.pct!=null?`<div class="bar"><i style="width:${+k.pct}%"></i></div>`:''}${k.note?`<small>${e(k.note)}</small>`:''}</div>`).join('')}</div>
+<div class="t2"><div class="card"><b>🧾 Costs (${e(F.currency)}/month)</b><div class="tw"><table><tr><th>Tool</th><th>Monthly ${e(F.currency)}</th><th>Billing day</th><th>Status</th></tr>${F.costs.map(c=>`<tr><td>${e(c.tool)}</td><td>${e(c.monthly)}</td><td>${e(c.billing)}</td><td>${b(c.tone,c.status)}</td></tr>`).join('')}</table></div></div>
+<div class="card"><b>💵 Revenue</b><div class="tw"><table><tr><th>Source</th><th>${e(F.currency)}</th><th>Status</th></tr>${F.revenue.map(r=>`<tr><td>${e(r.source)}</td><td>${e(r.bdt)}</td><td>${b(r.tone,r.status)}</td></tr>`).join('')}</table></div></div></div>
+<div class="t2"><div class="card"><b>📅 Upcoming billing</b>${(F.upcoming||[]).map(u=>`<div class="kv"><span>${e(u.item)}</span><span>${e(u.date)}</span></div>`).join('')}</div>${F.ai_note?`<div class="card"><b>🤖 AI usage note</b><div class="note" style="margin-top:8px">${e(F.ai_note)}</div></div>`:''}</div>
+<div class="sub" style="margin-top:8px;text-align:right">Last updated ${e(F.updated)}</div></div>`}
+const rpTone=s=>s.includes('তথ্য অপেক্ষমাণ')?'idle':/খসড়া|অপেক্ষায়/.test(s)?'wait':/সম্পন্ন|চালু|চলমান/.test(s)?'ok':'warn';
+const rpLink=(u,l)=>{u=String(u||'').trim();if(!/^(https?:\/\/|#)/i.test(u))return'';const x=u[0]!=='#';return `<a class="rp-btn" href="${e(u)}"${x?' target="_blank" rel="noopener"':''}>${e(l||'খুলুন')}${x?' ↗':''}</a>`};
+const rpCard=x=>{const t=x.table,h=t&&Array.isArray(t.headers)?t.headers:[],r=t&&Array.isArray(t.rows)?t.rows:[],s=String(x.status??'');
+return `<div class="card rp-card"><div class="rp-top"><div><b>${e(x.title)}</b><div class="rp-meta">${e(x.owner)}${x.updated?` · 🕒 ${e(x.updated)}`:''}</div></div><span class="badge ${rpTone(s)}">${e(s)}</span></div>${Array.isArray(x.summary)&&x.summary.length?`<ul class="rp-ul">${x.summary.map(i=>`<li>${e(i)}</li>`).join('')}</ul>`:''}${t?`<details class="rp-det"><summary>${e(t.caption||'টেবিল')}</summary><div class="tw"><table><thead><tr>${h.map(c=>`<th>${e(c)}</th>`).join('')}</tr></thead><tbody>${r.map(R=>`<tr>${(R||[]).map(c=>`<td>${e(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`:''}<div class="rp-links">${rpLink(x.link,x.linkLabel)}${rpLink(x.link2,x.link2Label)}</div></div>`};
+const tkSt={done:['ok','সম্পন্ন'],pending:['warn','অপেক্ষমাণ'],blocked:['wait','আটকে আছে'],'on hold':['idle','স্থগিত']};
+const tkGr=[['daily','দৈনিক'],['weekly','সাপ্তাহিক'],['monthly','মাসিক'],['one-off','একবারের কাজ'],['other','অন্যান্য']];
+const tkBn=n=>String(n).replace(/\d/g,d=>'০১২৩৪৫৬৭৮৯'[d]);
+const tkList=(t,a)=>Array.isArray(a)&&a.length?`<div class="tk-l"><b>${t}</b><ul>${a.map(s=>`<li>${e(s)}</li>`).join('')}</ul></div>`:'';
+const tkCard=x=>{const s=tkSt[x.status]||['warn',x.status],b=tkList('✅ সম্পন্ন',x.done)+tkList('⏳ বাকি',x.pending)+tkList('⚠️ সমস্যা',x.issues);
+return `<div class="card tk-card" data-o="${e(x.owner)}"><div class="tk-top"><div><b>${e(x.title)}</b><div class="tk-meta">${e(x.owner)}</div></div><span class="badge ${s[0]}">${e(s[1])}</span></div><div class="duty" style="margin:0">${e(x.goal)}</div>${x.due?`<span class="tk-due">⏰ ${e(x.due)}</span>`:''}${b?`<details class="rp-det"><summary>বিস্তারিত</summary>${b}</details>`:''}${x.updated?`<div class="tk-meta tk-up">🕒 ${e(x.updated)}</div>`:''}</div>`};
+const tkHtml=ts=>{if(!Array.isArray(ts)||!ts.length)return'';const key=x=>tkGr.some(g=>g[0]===x.freq)?x.freq:'other',os=[...new Set(ts.map(x=>x.owner).filter(Boolean))];
+return `<h2>কাজের তালিকা</h2><select id="tk-f" class="tk-sel" aria-label="ফিল্টার"><option value="">সবাই</option>${os.map(o=>`<option value="${e(o)}">${e(o)}</option>`).join('')}</select>`+tkGr.map(([k,n])=>{const a=ts.filter(x=>key(x)===k);return a.length?`<section class="tk-grp"><h3 class="tk-h">${n} <span class="tk-n">${tkBn(a.length)}</span></h3><div class="tk-grid">${a.map(tkCard).join('')}</div></section>`:''}).join('')};
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+const saved=JSON.parse(localStorage.getItem('todos')||'{}');
+document.getElementById('app').innerHTML=`
+<header><img class="logo" src="icons/icon-192.png" alt="Quad A Studio" style="object-fit:cover;padding:0;background:none"><div><h1>${e(d.title)}</h1><div class="sub">ড্যাশবোর্ড · ${e(d.owner)}</div></div><div class="live">আপডেট: ${e(d.updated)}</div></header>
+<div class="stats">${d.stats.map(s=>`<div class="card stat"><span class="i">${s.icon}</span><div class="v">${e(s.value)}</div><div class="l">${e(s.label)}</div></div>`).join('')}</div>
+<h2>এজেন্সির কাঠামো</h2><div class="card org">
+<div class="node top"><b>👑 ${e(d.org.owner.name)}</b><small>${e(d.org.owner.role)}</small></div><div class="line"></div>
+<div class="node top"><b>🧠 ${e(d.org.ceo.name)}</b><small>${e(d.org.ceo.role)}</small></div><div class="line"></div>
+${(d.org.tiers||[d.org.departments]).map((t,i)=>(i?'<div class="line"></div>':'')+`<div class="depts">${t.map(x=>`<div class="node"><b>${x.icon} ${e(x.name)}</b><small>${e(x.role)}</small></div>`).join('')}</div>`).join('')}</div>${d.org.chain?`<p class="sub" style="margin:10px 0 0">${e(d.org.chain)}</p>`:''}
+<h2>বিভাগভিত্তিক অবস্থা</h2><div class="grid">${d.departments.map(x=>`<div class="card dept"><div class="top"><div class="ic">${x.icon}</div><b>${e(x.name)}${x.title?`<small style="display:block;font-weight:400;color:var(--mu);font-size:12px">${e(x.title)}</small>`:''}</b><span class="badge ${x.tone}">${e(x.status)}</span></div><div class="duty">${e(x.duty)}</div><div class="next">➜ ${e(x.next)}</div>${x.update?`<div class="duty" style="margin:6px 0 0">🕒 ${e(x.update)}</div>`:''}<div class="bar"><i style="width:${+x.progress}%"></i></div></div>`).join('')}</div>
+${Array.isArray(d.reports)&&d.reports.length?`<h2>রিপোর্ট ও পরিকল্পনা</h2><div class="rp-grid">${d.reports.map(rpCard).join('')}</div>`:''}${tkHtml(d.tasks)}
+<h2>কাজের নিয়ম</h2><div class="card"><div class="steps">${d.rules.map((r,i)=>`<div class="step"><div class="num">${'১২৩৪৫৬'[i]}</div><div><b>${e(r.title)}</b><div class="duty" style="margin:2px 0">${e(r.detail)}</div></div></div>`).join('')}</div><div class="note">🔒 ${e(d.note)}</div></div>
+${finance(d.finance)}${results(d.results)}<h2>আপনার করণীয়</h2><div class="card">${d.todos.map((t,i)=>{const dn=saved[t.text]??t.done;return`<div class="todo ${dn?'done':''}" data-k="${e(t.text)}"><div class="chk"></div><span>${e(t.text)}${t.meta?`<small>${e(t.meta)}</small>`:''}</span></div>`}).join('')}</div>
+<footer>Jamie · Quad A Studio</footer>`;
+const tkF=document.getElementById('tk-f');
+if(tkF)tkF.addEventListener('change',()=>{document.querySelectorAll('.tk-grp').forEach(g=>{let n=0;g.querySelectorAll('.tk-card').forEach(c=>{c.hidden=!!tkF.value&&c.dataset.o!==tkF.value;if(!c.hidden)n++});g.hidden=!n;g.querySelector('.tk-n').textContent=tkBn(n)})});
+document.querySelectorAll('.todo').forEach(el=>el.onclick=()=>{el.classList.toggle('done');saved[el.dataset.k]=el.classList.contains('done');localStorage.setItem('todos',JSON.stringify(saved))});
+}).catch(()=>document.getElementById('app').textContent='ডেটা লোড করা যায়নি, ইন্টারনেট দেখুন।');
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+</script></body></html>

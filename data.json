@@ -1,0 +1,1299 @@
+{
+  "title": "Quad A Studio",
+  "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২০ (ঢাকা)",
+  "owner": "মীর তাওসীফ-উল-হাসান",
+  "stats": [
+    {
+      "label": "চালু বিভাগ",
+      "value": "১১",
+      "icon": "🏢"
+    },
+    {
+      "label": "অনুমোদিত ডিজাইন",
+      "value": "৪",
+      "icon": "🎨"
+    },
+    {
+      "label": "বইয়ের পৃষ্ঠা",
+      "value": "৫৪",
+      "icon": "📖"
+    },
+    {
+      "label": "আপনার করণীয়",
+      "value": "৪",
+      "icon": "✅"
+    }
+  ],
+  "org": {
+    "owner": {
+      "name": "তাওসীফ",
+      "role": "Founder · চূড়ান্ত হ্যাঁ/না"
+    },
+    "ceo": {
+      "name": "Jamie",
+      "role": "CEO · সিদ্ধান্ত ও অনুমোদন; তাওসীফের সাথে একমাত্র যোগাযোগ"
+    },
+    "tiers": [
+      [
+        {
+          "name": "Taseen",
+          "role": "Head of Operations",
+          "icon": "🗂️"
+        },
+        {
+          "name": "Chaity",
+          "role": "Head of Project Management",
+          "icon": "📋"
+        },
+        {
+          "name": "Zane",
+          "role": "CTO · Tech Lab",
+          "icon": "💻"
+        },
+        {
+          "name": "Mira",
+          "role": "CFO · Finance Desk",
+          "icon": "💰"
+        },
+        {
+          "name": "Lina",
+          "role": "Head of Legal & Compliance",
+          "icon": "⚖️"
+        }
+      ],
+      [
+        {
+          "name": "Ashrafi",
+          "role": "Freelance Income",
+          "icon": "💼"
+        },
+        {
+          "name": "Kai",
+          "role": "Head of Marketing & Growth",
+          "icon": "📈"
+        },
+        {
+          "name": "Leo",
+          "role": "Creative Studio",
+          "icon": "🎨"
+        }
+      ],
+      [
+        {
+          "name": "Ayesha",
+          "role": "Book Studio",
+          "icon": "📚"
+        },
+        {
+          "name": "Amatullah",
+          "role": "Short-form Video",
+          "icon": "🎬"
+        }
+      ]
+    ],
+    "chain": "Jamie বিভাগপ্রধানদের মাধ্যমে কাজ দেন (অপারেশনস: Taseen, প্রজেক্ট: Chaity, টেক: Zane, ফিন্যান্স: Mira, লিগ্যাল: Lina, ব্যবসা উন্নয়ন: Kai/Ashrafi)। বটরা নিজ বিভাগপ্রধানকে রিপোর্ট করে; প্রধানরা Jamie-কে সংক্ষেপে জানান। এক কর্মদিবসের বেশি আটকে থাকলে Operations ফলো-আপ করে।"
+  },
+  "departments": [
+    {
+      "name": "Jamie",
+      "title": "CEO",
+      "icon": "🧠",
+      "status": "চালু",
+      "tone": "ok",
+      "progress": 100,
+      "duty": "সব সিদ্ধান্ত, কাজ ভাগ, মান যাচাই, AI লিমিট নজরদারি, দৈনিক রিপোর্ট",
+      "next": "লিমিট নজরদারি (৯টা, ৩টা, ৯টা) আর রাত ১১টার YouTube রিপোর্ট চলছে",
+      "update": "লিমিট নজরদারি ও দৈনিক রিপোর্ট চলছে (১:৪০ দুপুরের তথ্য)"
+    },
+    {
+      "name": "Operations Desk — Taseen",
+      "title": "Head of Operations",
+      "icon": "🗂️",
+      "status": "চালু",
+      "tone": "ok",
+      "progress": 0,
+      "duty": "নিয়ম ও প্রক্রিয়া, বিভাগের সমন্বয়, আটকে থাকা কাজের ফলো-আপ, প্রশাসনিক রেকর্ড",
+      "next": "অপারেশনস গাইড v3 তৈরি",
+      "update": "অপারেশনস গাইড v3 সম্পন্ন; DR ইনভেন্টরি Chaity-কে পাঠানো হয়েছে (৩০ অক্টোবর, সন্ধ্যা ৬:২০)"
+    },
+    {
+      "name": "Project Desk — Chaity",
+      "title": "Head of Project Management",
+      "icon": "📋",
+      "status": "Standby",
+      "tone": "idle",
+      "progress": 0,
+      "duty": "প্রজেক্ট পরিকল্পনা ও ট্র্যাকিং, কাজ বণ্টন",
+      "next": "Jamie-র পরবর্তী নির্দেশের অপেক্ষায়",
+      "update": "DR পরিকল্পনা Jamie-কে জমা দেওয়া হয়েছে (৩০ অক্টোবর, সন্ধ্যা ৬:২০)"
+    },
+    {
+      "name": "Tech Lab — Zane",
+      "title": "CTO",
+      "icon": "💻",
+      "status": "চালু",
+      "tone": "ok",
+      "progress": 100,
+      "duty": "ওয়েবসাইট, অ্যাপ ও কোড",
+      "next": "ড্যাশবোর্ড ও ওয়েবসাইট রক্ষণাবেক্ষণ",
+      "update": "সাপ্তাহিক Google Drive ব্যাকআপ চালু হয়েছে (৩০ অক্টোবর, সন্ধ্যা ৬:২০)"
+    },
+    {
+      "name": "Finance Desk — Mira",
+      "title": "CFO",
+      "icon": "💰",
+      "status": "Standby",
+      "tone": "idle",
+      "progress": 0,
+      "duty": "প্রাইসিং, ইনভয়েস ও আয়ের হিসাব",
+      "next": "Jamie-র নির্দেশের অপেক্ষায়",
+      "update": "এখনো আপডেট নেই"
+    },
+    {
+      "name": "Legal Desk — Lina",
+      "title": "Head of Legal & Compliance",
+      "icon": "⚖️",
+      "status": "Standby",
+      "tone": "idle",
+      "progress": 0,
+      "duty": "লাইসেন্স, নিবন্ধন ও কপিরাইট যাচাই",
+      "next": "Jamie-র নির্দেশের অপেক্ষায়",
+      "update": "এখনো আপডেট নেই"
+    },
+    {
+      "name": "Freelance Income — Ashrafi",
+      "title": "Business Lead",
+      "icon": "💼",
+      "status": "চালু",
+      "tone": "ok",
+      "progress": 70,
+      "duty": "ক্লায়েন্ট খোঁজা, বিড, মার্কেটিং, আয়-ব্যয়ের হিসাব; Fiverr gig",
+      "next": "ফ্রিল্যান্স চাহিদা ও দাম নিয়ে মার্কেট রিসার্চ শুরু",
+      "update": "Fiverr gig ও পোর্টফোলিও তৈরি ও অনুমোদিত (অ্যাকাউন্ট আপাতত স্থগিত) (৩০ অক্টোবর, সন্ধ্যা ৬:২০)"
+    },
+    {
+      "name": "Growth Studio — Kai",
+      "title": "Head of Marketing & Growth",
+      "icon": "📈",
+      "status": "Standby",
+      "tone": "idle",
+      "progress": 0,
+      "duty": "বই লঞ্চ, প্রচার ও SEO",
+      "next": "Jamie-র নির্দেশের অপেক্ষায়",
+      "update": "এখনো আপডেট নেই"
+    },
+    {
+      "name": "Creative Studio — Leo",
+      "title": "Head of Design Lab",
+      "icon": "🎨",
+      "status": "চালু",
+      "tone": "ok",
+      "progress": 100,
+      "duty": "থাম্বনেইল, লোগো, পোস্টার ও Canva-র সব ডিজাইন",
+      "next": "Fiverr-এর ৪টা নমুনা ডিজাইন অনুমোদিত; নতুন কাজের অপেক্ষায়",
+      "update": "Fiverr-এর ৪টা নমুনা ডিজাইন অনুমোদিত (১:৪০ দুপুরের তথ্য)"
+    },
+    {
+      "name": "Book Studio — Ayesha",
+      "title": "Lead Writer",
+      "icon": "📚",
+      "status": "চালু",
+      "tone": "ok",
+      "progress": 60,
+      "duty": "বই লেখা ও প্রকাশনা: KDP ও Rokomari",
+      "next": "“আগামীতে বাংলাদেশ”-এর প্রথম খসড়া সম্পূর্ণ (১২ অধ্যায়, ৫৪ পৃষ্ঠা); Drive-এ ব্যাকআপ ও তথ্য যাচাই চলছে",
+      "update": "“আগামীতে বাংলাদেশ”-এর প্রথম খসড়া সম্পূর্ণ (১:৪০ দুপুরের তথ্য)"
+    },
+    {
+      "name": "Short-form Video — Amatullah",
+      "title": "AI · Head of Short-form Video",
+      "icon": "🎬",
+      "status": "চূড়ান্ত যাচাই",
+      "tone": "warn",
+      "progress": 90,
+      "duty": "Leo-র সাথে YouTube Shorts, Instagram, TikTok ও Facebook-এর শর্ট ভিডিও/রিলস",
+      "next": "২ নভেম্বরের রিসেটের পর ২ সপ্তাহের পাইলট: সপ্তাহে ৩টা রিল",
+      "update": "নতুন ভূমিকা: Head of Short-form Video (৩১ অক্টো)"
+    }
+  ],
+  "rules": [
+    {
+      "title": "বিভাগ কাজ করে",
+      "detail": "কাজ শেষ হলে Jamie-কে জানায়"
+    },
+    {
+      "title": "Jamie যাচাই করে",
+      "detail": "ভুল থাকলে ফেরত পাঠিয়ে ঠিক করায়"
+    },
+    {
+      "title": "তাওসীফের হ্যাঁ",
+      "detail": "চূড়ান্ত কাজ আপনাকে দেখানো হয়, হ্যাঁ পেলেই এগোনো"
+    }
+  ],
+  "note": "ক্লায়েন্টকে মেসেজ, পোস্ট বা টাকা খরচ আপনার হ্যাঁ ছাড়া হবে না। প্রতিটা কাজের জন্য AI টুলে আলাদা Project। মান ঠিক রেখে কম লিমিট খরচ।",
+  "todos": [
+    {
+      "text": "Fiverr ও Payoneer অ্যাকাউন্ট খোলা",
+      "meta": "বাংলা গাইড তৈরি আছে",
+      "done": false
+    },
+    {
+      "text": "অ্যানিমেল ভিডিও চূড়ান্ত হলে অনুমোদন দেওয়া",
+      "done": false
+    },
+    {
+      "text": "দ্বিতীয় ইউটিউব চ্যানেলের বিষয় ঠিক করা",
+      "done": false
+    }
+  ],
+  "results": {
+    "youtube": {
+      "updated": null,
+      "subscribers": null,
+      "views": null,
+      "watch_hours": null,
+      "shorts_views": null,
+      "videos": []
+    },
+    "books": {
+      "updated": null,
+      "platforms": [
+        {
+          "name": "KDP",
+          "copies": null,
+          "revenue": null,
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "name": "Google Play",
+          "copies": null,
+          "revenue": null,
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "name": "Rokomari",
+          "copies": null,
+          "revenue": null,
+          "rating": null,
+          "reviews": null
+        }
+      ]
+    },
+    "ai": {
+      "updated": "৩০ অক্টোবর ২০২৬",
+      "tools": [
+        {
+          "name": "Claude",
+          "used_pct": null,
+          "note": null
+        },
+        {
+          "name": "ChatGPT",
+          "used_pct": null,
+          "note": null
+        },
+        {
+          "name": "Gemini",
+          "used_pct": null,
+          "note": null
+        },
+        {
+          "name": "Flow",
+          "left": 394,
+          "total": null,
+          "used_pct": null,
+          "note": "৩৯৪ ক্রেডিট বাকি · রিসেট ২৯ নভেম্বর"
+        }
+      ]
+    }
+  },
+  "reports": [
+    {
+      "title": "Disaster Recovery ও Business Continuity Plan",
+      "owner": "Project Desk — Chaity",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "সম্পন্ন",
+      "summary": [
+        "৮টি দুর্যোগ-পরিস্থিতি: প্রতিটিতে কে দায়িত্ব নেবে, ধাপে ধাপে পুনরুদ্ধার ও ব্যাকআপ",
+        "এক পৃষ্ঠার দ্রুত চেকলিস্ট: সংকটে প্রথম ৫ কাজ, কাকে ডাকবেন, সাপ্তাহিক/মাসিক/ত্রৈমাসিক রুটিন",
+        "ফাঁক ১: নির্ধারিত Drive ব্যাকআপ ছিল না — সমাধান হয়েছে ৩০ অক্টোবর (Tech Lab সাপ্তাহিক ব্যাকআপ চালু করেছে)",
+        "ফাঁক ২: একটাই GitHub অ্যাকাউন্ট — লক হলে সাইট ও ড্যাশবোর্ড দুটোই বন্ধ",
+        "ফাঁক ৩: নিজস্ব ডোমেইন — সমাধান হয়েছে ৩০ অক্টোবর (quadastudio.com রেজিস্টার্ড ও লাইভ)",
+        "পাঠানো, পোস্ট ও পেমেন্ট — সংকটেও শুধু তাওসীফের অনুমতিতে"
+      ],
+      "table": {
+        "caption": "এক পৃষ্ঠার চেকলিস্ট: কোন সমস্যায় কাকে ডাকবেন",
+        "headers": [
+          "সমস্যা",
+          "প্রথম কে",
+          "তারপর"
+        ],
+        "rows": [
+          [
+            "সব বট বন্ধ",
+            "তাওসীফ → Claude Pro সরাসরি",
+            "অধ্যায় ১"
+          ],
+          [
+            "একটি বট নষ্ট",
+            "Jamie → Taseen",
+            "অধ্যায় ২"
+          ],
+          [
+            "box/লগইন হারালো",
+            "তাওসীফ (সাইন-ইন) + Zane (রিপো)",
+            "অধ্যায় ৩"
+          ],
+          [
+            "AI/ডিজাইন টুল বন্ধ",
+            "Taseen → বিকল্প টুল",
+            "অধ্যায় ৪"
+          ],
+          [
+            "সাইট/ড্যাশবোর্ড ডাউন",
+            "Zane (revert/পুনঃডেপ্লয়)",
+            "অধ্যায় ৫"
+          ],
+          [
+            "Google/Gmail লক",
+            "তাওসীফ (রিকভারি)",
+            "অধ্যায় ৬"
+          ],
+          [
+            "YouTube সমস্যা",
+            "তাওসীফ + Amatullah",
+            "অধ্যায় ৭"
+          ],
+          [
+            "ফাইল হারালো",
+            "Taseen",
+            "অধ্যায় ৮"
+          ]
+        ]
+      },
+      "link": "",
+      "linkLabel": "Drive-এ পুরো প্ল্যান"
+    },
+    {
+      "title": "ফ্রিল্যান্স মার্কেট রিসার্চ ও প্রাইস টেবিল",
+      "owner": "Freelance Income — Ashrafi",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "চলমান",
+      "summary": [
+        "Upwork-এ দৈনিক আনুমানিক ৩২৩টি গ্রাফিক ডিজাইন, ৩১৪টি ভিডিও এডিটিং, ১৭৭টি ওয়েব ডিজাইন কাজ",
+        "প্রথমে YouTube থাম্বনেইল ($8), তারপর Shorts এডিটিং ($15), তারপর Canva পোস্ট ($35/১০টি)",
+        "রিভিউ আসার আগে জটিল অ্যানিমেশন ও পুরো ওয়েবসাইট নয়",
+        "বান্ডেল: ৪ থাম্বনেইল + ৪ Shorts = $85 (৳10,370)",
+        "বিজয়ী বিড আনুমানিক, যাচাইকৃত গড় নয়; ১ USD = ১২২ টাকা ধরা"
+      ],
+      "table": {
+        "caption": "প্রাইস টেবিল (USD, প্ল্যাটফর্ম ফি বাদে)",
+        "headers": [
+          "সার্ভিস",
+          "চাহিদা",
+          "প্রতিযোগিতা",
+          "ক্লায়েন্ট বাজেট",
+          "শুরুর দাম",
+          "টাকায়"
+        ],
+        "rows": [
+          [
+            "Kids/YouTube ভিডিও ও 2D অ্যানিমেশন",
+            "Med",
+            "High",
+            "$100–500/ভিডিও",
+            "$60/৩০ সেকেন্ড",
+            "৳7,320"
+          ],
+          [
+            "YouTube থাম্বনেইল",
+            "High",
+            "High",
+            "$10–50",
+            "$8",
+            "৳976"
+          ],
+          [
+            "Shorts/Reels এডিটিং",
+            "High",
+            "High",
+            "$20–100/short",
+            "$15",
+            "৳1,830"
+          ],
+          [
+            "Canva গ্রাফিক্স/সোশ্যাল পোস্ট",
+            "High",
+            "High",
+            "$30–150/১০টি",
+            "$35/১০টি",
+            "৳4,270"
+          ],
+          [
+            "ল্যান্ডিং পেজ ও ছোট ওয়েবসাইট",
+            "High",
+            "High",
+            "$150–1,000",
+            "$150",
+            "৳18,300"
+          ],
+          [
+            "AI কনটেন্ট রাইটিং",
+            "Med",
+            "High",
+            "$20–100/আর্টিকেল",
+            "$20/১০০০ শব্দ",
+            "৳2,440"
+          ],
+          [
+            "বই লেখা/ফরম্যাটিং/কভার",
+            "Med",
+            "High",
+            "$30–200 (কভার/ফরম্যাট)",
+            "$35",
+            "৳4,270"
+          ]
+        ]
+      },
+      "link": "",
+      "linkLabel": "ট্র্যাকার শিট",
+      "link2": "",
+      "link2Label": "রিসার্চ ডক"
+    },
+    {
+      "title": "Tuntuni YouTube SEO প্ল্যান",
+      "owner": "Growth Studio — Kai",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "খসড়া — অনুমোদনের অপেক্ষায়",
+      "summary": [
+        "লং-টেইল কিওয়ার্ড; টাইটেলে কিওয়ার্ড আগে, ব্র্যান্ড শেষে",
+        "ইন্ট্রো ৫ সেকেন্ডের কম; প্রতিটি Short-কে মূল ভিডিওর সাথে লিংক",
+        "৩টি প্লেলিস্ট প্রস্তাব; প্রতিটি ভিডিওতে ইংরেজি ক্যাপশন; Made-for-kids চালু",
+        "Space facts Short অফ-নিশ — প্রাইভেট বা আলাদা চ্যানেল (তাওসীফের সিদ্ধান্ত)",
+        "সাপ্তাহিক সার্চ-টার্ম রিপোর্ট ও মাসিক র‍্যাংক যাচাই"
+      ],
+      "table": {
+        "caption": "ভিডিও অনুযায়ী কিওয়ার্ড",
+        "headers": [
+          "ভিডিও",
+          "কিওয়ার্ড"
+        ],
+        "rows": [
+          [
+            "3j3OGTakKPc (রং, আকার, সংখ্যা)",
+            "learn colors for toddlers; colors shapes numbers for kids; color quiz for kids"
+          ],
+          [
+            "J46jT5s9IUU (Short)",
+            "learn colors for kids; color quiz"
+          ],
+          [
+            "i6LdWcJiJqA (পশুর ডাক)",
+            "animal sounds for kids; learn animal sounds; farm animal sounds for toddlers"
+          ],
+          [
+            "5VbOlLXj9Jo (Short)",
+            "guess the animal sound; animal sounds quiz for kids"
+          ],
+          [
+            "Fruits (৩ নভেম্বর)",
+            "learn fruits names for kids; fruits for toddlers"
+          ],
+          [
+            "A-Z (৫ নভেম্বর)",
+            "ABC phonics for toddlers; alphabet for kids A to Z"
+          ],
+          [
+            "Counting 11-20 (৭ নভেম্বর)",
+            "counting 11 to 20 for kids; numbers 11-20 for kindergarten"
+          ]
+        ]
+      },
+      "link": "",
+      "linkLabel": "Drive-এ SEO প্ল্যান"
+    },
+    {
+      "title": "ফিন্যান্স সারাংশ",
+      "owner": "Finance Desk — Mira",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "চলমান",
+      "summary": [
+        "আর্থিক বিবরণ প্রাইভেট রাখা হয়েছে",
+        "বিস্তারিত হিসাব প্রাইভেট ফাইলে"
+      ],
+      "link": "#finance",
+      "linkLabel": "Finance অংশে যান"
+    },
+    {
+      "title": "অপারেটিং গাইড v4",
+      "owner": "Operations Desk — Taseen",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "চালু",
+      "summary": [
+        "প্রতিটি বিভাগের দায়িত্ব নির্ধারিত; Jamie-ই একমাত্র তাওসীফের সাথে যোগাযোগ রাখেন",
+        "বিভাগগুলো সরাসরি একে অপরকে বার্তা দেয়; সংক্ষেপে: কী লাগবে, কবে, ফাইল কোথায়",
+        "কাজ বিভাগপ্রধানদের মাধ্যমে; বট রিপোর্ট করে নিজের প্রধানকে",
+        "এক কর্মদিবসের বেশি আটকে থাকলে Operations ফলো-আপ করে",
+        "পাঠানো, পোস্ট ও পেমেন্ট শুধু তাওসীফের অনুমতিতে; নিজের উদ্যোগে কিছু নয়",
+        "নিজস্ব বা লাইসেন্সকৃত কনটেন্ট; কম খরচে উচ্চমান; প্রতিটি বিভাগের একটি AI Project",
+        "Operations সাপ্তাহিক নতুন স্কিল/কানেক্টর যাচাই করে সুপারিশ দেয়",
+        "স্ট্যাটাস বদলালে বিভাগপ্রধান Zane-কে এক লাইনের আপডেট দেন"
+      ],
+      "link": "",
+      "linkLabel": "Drive-এ গাইড"
+    },
+    {
+      "title": "ট্যাক্স ও নিবন্ধন চেকলিস্ট ২০২৬",
+      "owner": "Legal Desk — Lina",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "সম্পন্ন (গবেষণা)",
+      "summary": [
+        "শুধু গবেষণা: কিছু জমা, ফাইল বা পেমেন্ট হয়নি",
+        "ব্যক্তিগত রিটার্ন অতিরিক্ত কর ছাড়া জমার শেষ দিন: ৩১ ডিসেম্বর ২০২৬",
+        "ফ্রিল্যান্স ও কনটেন্ট-ক্রিয়েটর আয়ে নতুন কর ও VAT ছাড় ১ জুলাই ২০২৬ থেকে (শর্ত যাচাই দরকার)",
+        "Quad A Studio: প্রথমে সম্ভবত একক মালিকানা — ট্রেড লাইসেন্স + ব্যাংক অ্যাকাউন্ট",
+        "ট্রেড লাইসেন্স/RJSC নিবন্ধন স্থগিত — Jamie বললে শুরু",
+        "কর-উপদেষ্টার জন্য প্রশ্ন-তালিকা তৈরি"
+      ],
+      "table": {
+        "caption": "মূল সময়সীমা",
+        "headers": [
+          "তারিখ",
+          "কাজ"
+        ],
+        "rows": [
+          [
+            "নভেম্বর ২০২৬",
+            "e-TIN যাচাই, e-Return নিবন্ধন, কাগজপত্র সংগ্রহ"
+          ],
+          [
+            "৩১ ডিসেম্বর ২০২৬",
+            "অতিরিক্ত কর ছাড়া ব্যক্তিগত রিটার্নের শেষ দিন"
+          ],
+          [
+            "১ জানুয়ারি ২০২৭",
+            "+২% অতিরিক্ত কর শুরু"
+          ],
+          [
+            "ব্যবসা শুরুর আগে",
+            "ট্রেড লাইসেন্স (দরকার হলে BIN)"
+          ],
+          [
+            "৩০ জুন ২০২৭",
+            "ট্রেড লাইসেন্সের মেয়াদ শেষ"
+          ]
+        ]
+      },
+      "link": "",
+      "linkLabel": "Drive-এ চেকলিস্ট"
+    },
+    {
+      "title": "নিয়মিত রুটিন",
+      "owner": "Operations Desk — Taseen",
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "status": "চালু",
+      "summary": [
+        "প্রতি সোমবার সকাল ১০টা: Growth Studio (Kai) সাপ্তাহিক কাজ",
+        "প্রতি সোমবার সকাল ১০টা: Freelance Income সাপ্তাহিক মার্কেট আপডেট",
+        "প্রতি মঙ্গলবার সকাল ১০টা: Operations সাপ্তাহিক যাচাই",
+        "প্রতিদিন সকাল ৯টা, বিকেল ৩টা, রাত ৯টা: Jamie-র AI লিমিট নজরদারি",
+        "প্রতিরাত ১১টা: Jamie-র YouTube ভিউ রিপোর্ট"
+      ],
+      "table": {
+        "caption": "সময়সূচি (ঢাকা)",
+        "headers": [
+          "রুটিন",
+          "কখন"
+        ],
+        "rows": [
+          [
+            "Growth Studio (Kai)",
+            "সোমবার ১০:০০"
+          ],
+          [
+            "Freelance Income",
+            "সোমবার ১০:০০"
+          ],
+          [
+            "Operations (Taseen)",
+            "মঙ্গলবার ১০:০০"
+          ],
+          [
+            "AI লিমিট নজরদারি (Jamie)",
+            "প্রতিদিন ৯:০০, ১৫:০০, ২১:০০"
+          ],
+          [
+            "YouTube ভিউ রিপোর্ট (Jamie)",
+            "প্রতিদিন ২৩:০০"
+          ]
+        ]
+      },
+      "link": "",
+      "linkLabel": ""
+    },
+    {
+      "title": "ক্লায়েন্ট মিটিং ওয়ার্কফ্লো",
+      "owner": "Project Desk — Chaity",
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "status": "চালু",
+      "summary": [
+        "প্রতিটি ক্লায়েন্ট মিটিংয়ে PM (Chaity) থাকবেন এবং সংশ্লিষ্ট টিমমেটদের উপস্থিতি নিশ্চিত করবেন",
+        "প্রজেক্ট ধাপ: Jamie ব্রিফ দেন → Chaity কাজ ভাগ করেন → প্রজেক্ট-ভিত্তিক DR প্ল্যান → অগ্রগতি ড্যাশবোর্ডে → QA → তাওসীফের অনুমোদনে ডেলিভারি",
+        "মিটিংয়ের আগে (২৪ ঘণ্টা): সময় ও লিংক নিশ্চিত, টিমমেটদের পরিকল্পনা ও প্রশ্ন মিলিয়ে এক এজেন্ডা, Jamie-র সাথে চূড়ান্ত",
+        "মিটিংয়ে: Jamie ও Chaity ক্লায়েন্টের সাথে কথা বলেন; Chaity সিদ্ধান্ত, দায়িত্ব ও তারিখ নোট করেন",
+        "মিটিংয়ের পরে (একই দিন): পরবর্তী কাজ ও প্রশ্ন Chaity-র কাছে, সারাংশ Jamie-কে, ড্যাশবোর্ড ও DR প্ল্যান আপডেট",
+        "ক্লায়েন্ট যোগাযোগ: আমরা খোলাখুলি Quad A Studio-র AI এজেন্ট হিসেবে পরিচয় দিই, মানুষ বলে দাবি করি না; চূড়ান্ত পেশাদার রিভিউ তাওসীফের",
+        "কাজের সংখ্যা শুধু সত্য তথ্য; আসল কাজ না হওয়া পর্যন্ত স্যাম্পল দেখানো হবে",
+        "কোনো কিছু পাঠানো, পোস্ট বা পেমেন্ট — শুধু তাওসীফের হ্যাঁ (Jamie-র মাধ্যমে) পেলে"
+      ],
+      "link": "",
+      "linkLabel": ""
+    }
+  ],
+  "tasks": [
+    {
+      "title": "AI লিমিট নজরদারি",
+      "owner": "CEO — Jamie",
+      "freq": "daily",
+      "status": "pending",
+      "goal": "দিনে ৩ বার (৯টা, ৩টা, ৯টা) ব্যবহার-সীমা দেখা",
+      "done": [],
+      "pending": [
+        "চলমান রুটিন"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "YouTube ভিউ রিপোর্ট",
+      "owner": "CEO — Jamie",
+      "freq": "daily",
+      "status": "pending",
+      "goal": "প্রতিরাত ১১টায় ভিউ রিপোর্ট",
+      "done": [],
+      "pending": [
+        "প্রথম রিপোর্ট আজ রাতে"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৩০ অক্টোবর ২০২৬, রাত ১১টা"
+    },
+    {
+      "title": "নির্দেশ ও রিপোর্ট সমন্বয়",
+      "owner": "CEO — Jamie",
+      "freq": "daily",
+      "status": "pending",
+      "goal": "তাওসীফের নির্দেশ বিভাগে পাঠানো; বিভাগের রিপোর্ট যাচাই করে জানানো",
+      "done": [],
+      "pending": [
+        "চলমান"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "এজেন্সি সেটআপ",
+      "owner": "CEO — Jamie",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "এজেন্সির মূল সেটআপ",
+      "done": [
+        "এজেন্সি Gmail (লোগো + সিগনেচার)",
+        "সব বটকে নিয়ম পাঠানো",
+        "সাপ্তাহিক ব্যাকআপ অনুমোদন"
+      ],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "তাওসীফের সিদ্ধান্তের অপেক্ষায় থাকা কাজ",
+      "owner": "CEO — Jamie",
+      "freq": "one-off",
+      "status": "blocked",
+      "goal": "খোলা সিদ্ধান্তগুলো শেষ করা",
+      "done": [
+        "বিলিং তথ্য প্রাইভেট ফাইলে"
+      ],
+      "pending": [
+        "ডোমেইন quadastudio.com কেনা",
+        "GitHub recovery কোড",
+        "আগের বইয়ের সিদ্ধান্ত"
+      ],
+      "issues": [
+        "Gmail সিগনেচারের লোগো ছবির URL লোড হচ্ছে না"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "পূর্ণ কাজের তালিকা",
+      "owner": "Operations Desk — Taseen",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "তথ্য অপেক্ষমাণ",
+      "done": [],
+      "pending": [
+        "তথ্য অপেক্ষমাণ"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "সাপ্তাহিক অপারেশনস যাচাই",
+      "owner": "Operations Desk — Taseen",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি মঙ্গলবার সকাল ১০টা (ঢাকা)",
+      "done": [],
+      "pending": [
+        "রুটিন চালু"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৩ নভেম্বর ২০২৬, সকাল ১০টা"
+    },
+    {
+      "title": "DR ও BC প্ল্যান",
+      "owner": "Project Desk — Chaity",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "৮টি দুর্যোগ-পরিস্থিতির পুনরুদ্ধার পরিকল্পনা + এক পৃষ্ঠার চেকলিস্ট",
+      "done": [
+        "প্ল্যান সম্পন্ন (৩০ অক্টোবর)",
+        "Drive কপিতে পুরো লেখা আছে — যাচাই সম্পন্ন (৩০ অক্টোবর)",
+        "নির্ধারিত Drive ব্যাকআপ — সমাধান (৩০ অক্টোবর)"
+      ],
+      "pending": [],
+      "issues": [
+        "একটাই GitHub অ্যাকাউন্ট",
+        "নিজস্ব ডোমেইন — সমাধান: quadastudio.com রেজিস্টার্ড ও লাইভ (৩০ অক্টোবর)"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "ক্লায়েন্ট প্রজেক্টের DR প্ল্যান",
+      "owner": "Project Desk — Chaity",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "প্রতিটি ক্লায়েন্ট প্রজেক্টে DR প্ল্যান",
+      "done": [],
+      "pending": [
+        "এখনো ক্লায়েন্ট নেই"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "ব্যক্তিগত ট্যাক্স প্রস্তুতি",
+      "owner": "Legal Desk — Lina",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "ট্যাক্স চেকলিস্ট, সময়সীমা ক্যালেন্ডার ও উপদেষ্টার প্রশ্ন-তালিকা",
+      "done": [
+        "চেকলিস্ট + ক্যালেন্ডার",
+        "কর-উপদেষ্টার প্রশ্ন-তালিকা (বাংলা)"
+      ],
+      "pending": [
+        "ব্যক্তিগত রিটার্ন জমা"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৩১ ডিসেম্বর ২০২৬"
+    },
+    {
+      "title": "ট্রেড লাইসেন্স / RJSC নিবন্ধন",
+      "owner": "Legal Desk — Lina",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "ব্যবসা নিবন্ধন",
+      "done": [],
+      "pending": [
+        "Jamie বললে শুরু"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "কপিরাইট যাচাই",
+      "owner": "Legal Desk — Lina",
+      "freq": "daily",
+      "status": "pending",
+      "goal": "প্রকাশের আগে প্রতিটি অ্যাসেট যাচাই",
+      "done": [],
+      "pending": [
+        "এখনো কিছু জমা হয়নি"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "বই ১ 'অফিসে এআই'",
+      "owner": "Book Studio — Ayesha",
+      "freq": "one-off",
+      "status": "blocked",
+      "goal": "বই ১ প্রকাশ",
+      "done": [
+        "পাণ্ডুলিপি, ৫৫টি ভিজ্যুয়াল, Cover B Final — Drive-এ"
+      ],
+      "pending": [
+        "খসড়া মুছে ফেলা (তাওসীফের হ্যাঁ)",
+        "প্রকাশ: KDP/Play Books/Rokomari (তাওসীফের হ্যাঁ)"
+      ],
+      "issues": [
+        "কভার র‍্যাপ/স্পাইন আটকে আছে: US Letter না 6x9 — তাওসীফ ঠিক করবেন"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "আগের বইয়ের সংশোধন",
+      "owner": "Book Studio — Ayesha",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "৩০ দিনের ম্যানেজার → ওয়েবসাইট → Zero to Linux",
+      "done": [
+        "৩টি বইয়ের রিভিউ ও পরিকল্পনা (Jamie-কে পাঠানো)"
+      ],
+      "pending": [
+        "বই ১-এর পরে শুরু"
+      ],
+      "issues": [
+        "Linux: বাড়ানো না নাম বদল — সিদ্ধান্ত দরকার"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "'আগামীতে বাংলাদেশ'",
+      "owner": "Book Studio — Ayesha",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "তাওসীফ স্থগিত রেখেছেন",
+      "done": [],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "সাপ্তাহিক বই-সীমা",
+      "owner": "Book Studio — Ayesha",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "সপ্তাহে সর্বোচ্চ ২–৩টি বই, মান আগে",
+      "done": [],
+      "pending": [
+        "কোনো সীমা অতিক্রম হয়নি"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "Fiverr নমুনা ডিজাইন",
+      "owner": "Creative Studio — Leo",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "৪টা নমুনা ডিজাইন",
+      "done": [
+        "৪টা ডিজাইন অনুমোদিত"
+      ],
+      "pending": [
+        "নতুন কাজের অপেক্ষায়"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "YouTube SEO প্ল্যান ও মেটাডেটা",
+      "owner": "Growth Studio — Kai",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "সব ভিডিওর SEO ও মেটাডেটা",
+      "done": [
+        "SEO প্ল্যান ও মেটাডেটা সম্পন্ন (৩০ অক্টোবর)"
+      ],
+      "pending": [
+        "Short থেকে বড় ভিডিওর ডেসক্রিপশন লিংক (তাওসীফের হ্যাঁ)"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "সাপ্তাহিক SEO ও র‍্যাংক লগ",
+      "owner": "Growth Studio — Kai",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি সোমবার সকাল ১০টা: নতুন আপলোডের SEO + সার্চ পরিসংখ্যান/র‍্যাংক লগ",
+      "done": [],
+      "pending": [
+        "প্রথমবার ২ নভেম্বর"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "২ নভেম্বর ২০২৬, সকাল ১০টা"
+    },
+    {
+      "title": "ফ্রিল্যান্স প্রস্তাব টেমপ্লেট",
+      "owner": "Growth Studio — Kai",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "চলমান: প্রস্তাব টেমপ্লেট, দাম ও স্ক্রিপ্ট",
+      "done": [],
+      "pending": [
+        "Freelance Income থেকে প্রথম কাজের অপেক্ষায়"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "ফিন্যান্স সেটআপ",
+      "owner": "Finance Desk — Mira",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "লেজার ও ড্যাশবোর্ডের ফিন্যান্স ডেটা",
+      "done": [
+        "লেজার সেটআপ",
+        "ড্যাশবোর্ডে ফিন্যান্স ডেটা পাঠানো",
+        "DR প্ল্যানের ফিন্যান্স অংশ",
+        "বিলিং তথ্য প্রাইভেট ফাইলে"
+      ],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "ক্লায়েন্ট ইনভয়েস টেমপ্লেট",
+      "owner": "Finance Desk — Mira",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "হাতে বানানো ক্লায়েন্ট ইনভয়েস টেমপ্লেট",
+      "done": [],
+      "pending": [
+        "কাজ বরাদ্দের অপেক্ষায়"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "সাপ্তাহিক AI ব্যবহার ও লেজার আপডেট",
+      "owner": "Finance Desk — Mira",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি সোমবার রাত ৯:২১-এর রিসেটের পরে: AI ব্যবহার যাচাই; লেজার ও ড্যাশবোর্ড ডেটা আপডেট",
+      "done": [],
+      "pending": [
+        "প্রথমবার ২ নভেম্বর"
+      ],
+      "issues": [
+        "Google Sheets কানেক্টর যুক্ত নয়, তাই লেজারে প্রতিটি পরিবর্তনে শিটের নতুন কপি তৈরি হয়"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "২ নভেম্বর ২০২৬, রাত ৯:২১-এর পরে"
+    },
+    {
+      "title": "মাসিক রিনিউয়াল যাচাই",
+      "owner": "Finance Desk — Mira",
+      "freq": "monthly",
+      "status": "pending",
+      "goal": "Grok Bot রিনিউয়াল ২৫ তারিখ ও Claude ২৬ তারিখ যাচাই",
+      "done": [],
+      "pending": [
+        "পরের বার নভেম্বরে"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "২৫ নভেম্বর ২০২৬"
+    },
+    {
+      "title": "মাসিক ফিন্যান্স রিপোর্ট",
+      "owner": "Finance Desk — Mira",
+      "freq": "monthly",
+      "status": "pending",
+      "goal": "Reports & Plans-এর জন্য মাসিক ফিন্যান্স রিপোর্ট",
+      "done": [],
+      "pending": [
+        "প্রথমটি ডিসেম্বরের শুরুতে"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "ডিসেম্বর ২০২৬-এর শুরু"
+    },
+    {
+      "title": "দৈনিক Short (বিকেল ৫টা)",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "daily",
+      "status": "on hold",
+      "goal": "প্রতিদিন বিকেল ৫টায় ১টা Short",
+      "done": [
+        "৩১ অক্টোবরের Animals Short শিডিউল করা"
+      ],
+      "pending": [
+        "১ নভেম্বর Colors — এখনো বানানো হয়নি",
+        "২ নভেম্বর Farm Animals — এখনো বানানো হয়নি"
+      ],
+      "issues": [
+        "তাওসীফ স্থগিত করেছেন"
+      ],
+      "updated": "৩১ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৩১ অক্টোবর ২০২৬, বিকেল ৫টা"
+    },
+    {
+      "title": "সাপ্তাহিক ৪টা বড় ভিডিও",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "weekly",
+      "status": "on hold",
+      "goal": "সপ্তাহে ৪টা বড় ভিডিও",
+      "done": [],
+      "pending": [],
+      "issues": [
+        "তাওসীফ স্থগিত করেছেন"
+      ],
+      "updated": "৩১ অক্টোবর ২০২৬ (ঢাকা)"
+    },
+    {
+      "title": "সাপ্তাহিক প্রোডাকশন পরিকল্পনা",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি রবিবার সকাল ৯টা",
+      "done": [],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "১ নভেম্বর ২০২৬, সকাল ৯টা"
+    },
+    {
+      "title": "সাপ্তাহিক পরিসংখ্যান রিপোর্ট",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি শনিবার রাত ৮টা",
+      "done": [],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "৩১ অক্টোবর ২০২৬, রাত ৮টা"
+    },
+    {
+      "title": "প্রকাশিত ও শিডিউল করা ভিডিও",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "প্রস্তুত ভিডিওগুলো প্রকাশ বা শিডিউল",
+      "done": [
+        "Animals বড় ভিডিও i6LdWcJiJqA: শিডিউল ১ নভেম্বর বিকেল ৪টা",
+        "Animals Short 5VbOlLXj9Jo: শিডিউল ৩১ অক্টোবর বিকেল ৫টা",
+        "Space Facts Short XEBIkCPlmJ0: Public"
+      ],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "Kai-এর SEO প্ল্যান প্রয়োগ",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "blocked",
+      "goal": "SEO প্ল্যান অনুযায়ী মেটাডেটা",
+      "done": [
+        "সম্পন্ন (একটি অংশ বাদে)"
+      ],
+      "pending": [],
+      "issues": [
+        "Made for kids ভিডিও হওয়ায় Short-এ related-video লিংক YouTube দিচ্ছে না"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "Fruits বড় ভিডিও",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "প্রোডাকশন ১ নভেম্বর, প্রকাশ ৩ নভেম্বর",
+      "done": [],
+      "pending": [],
+      "issues": [
+        "তাওসীফ স্থগিত করেছেন"
+      ],
+      "updated": "৩১ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৩ নভেম্বর ২০২৬"
+    },
+    {
+      "title": "A-Z বড় ভিডিও",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "প্রকাশ ৫ নভেম্বর",
+      "done": [],
+      "pending": [],
+      "issues": [
+        "তাওসীফ স্থগিত করেছেন"
+      ],
+      "updated": "৩১ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৫ নভেম্বর ২০২৬"
+    },
+    {
+      "title": "Counting 11-20 বড় ভিডিও",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "প্রকাশ ৭ নভেম্বর",
+      "done": [],
+      "pending": [],
+      "issues": [
+        "তাওসীফ স্থগিত করেছেন"
+      ],
+      "updated": "৩১ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "৭ নভেম্বর ২০২৬"
+    },
+    {
+      "title": "Flow ক্রেডিট ও ব্যবহার সাশ্রয়",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "ক্রেডিট বাঁচিয়ে কাজ চালানো",
+      "done": [],
+      "pending": [],
+      "issues": [
+        "Flow-এ ৩৯৪ ক্রেডিট বাকি, রিসেট ২৯ নভেম্বর",
+        "২ নভেম্বর রাত ৯:২১ পর্যন্ত ব্যবহার কমিয়ে চলা"
+      ],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "২৯ নভেম্বর ২০২৬"
+    },
+    {
+      "title": "Fiverr প্রস্তুতি",
+      "owner": "Freelance Income — Ashrafi",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "gig ও পোর্টফোলিও প্রস্তুত",
+      "done": [
+        "Fiverr gig-এর লেখা",
+        "পোর্টফোলিও",
+        "Fiverr/Payoneer বাংলা গাইড",
+        "প্রথম মার্কেট রিসার্চ ও সারাংশ"
+      ],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "Fiverr/Payoneer অ্যাকাউন্ট",
+      "owner": "Freelance Income — Ashrafi",
+      "freq": "one-off",
+      "status": "on hold",
+      "goal": "এজেন্সি প্রস্তুত না হওয়া পর্যন্ত তাওসীফ স্থগিত রেখেছেন",
+      "done": [],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "Animals Short পোর্টফোলিও নমুনা",
+      "owner": "Freelance Income — Ashrafi",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "Animals Short পোর্টফোলিও নমুনা হিসেবে",
+      "done": [],
+      "pending": [
+        "Jamie-র OK"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "সাপ্তাহিক মার্কেট ও কাজ যাচাই",
+      "owner": "Freelance Income — Ashrafi",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি সোমবার সকাল ১০টা; পাওয়া কাজ যায় Kai, তারপর Jamie-র কাছে",
+      "done": [],
+      "pending": [
+        "প্রথমবার ২ নভেম্বর"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "২ নভেম্বর ২০২৬, সকাল ১০টা"
+    },
+    {
+      "title": "সাপ্তাহিক Drive ব্যাকআপ",
+      "owner": "Tech Lab — Zane",
+      "freq": "weekly",
+      "status": "pending",
+      "goal": "প্রতি শুক্রবার রাত ~৩টা",
+      "done": [
+        "প্রথম ব্যাকআপ সম্পন্ন (৩০ অক্টোবর)"
+      ],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "৬ নভেম্বর ২০২৬"
+    },
+    {
+      "title": "Short এমবেড পুনর্যাচাই",
+      "owner": "Tech Lab — Zane",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "Short 5VbOlLXj9Jo-এর এমবেড আবার যাচাই",
+      "done": [],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)",
+      "due": "৩১ অক্টোবর ২০২৬, বিকেল ৫:১৫"
+    },
+    {
+      "title": "Reports & Plans ও Tasks অংশ",
+      "owner": "Tech Lab — Zane",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "ড্যাশবোর্ডে দুটি নতুন অংশ",
+      "done": [],
+      "pending": [
+        "কাজ চলছে"
+      ],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "সাইট ও ড্যাশবোর্ড আপডেট (৩০ অক্টোবর)",
+      "owner": "Tech Lab — Zane",
+      "freq": "one-off",
+      "status": "done",
+      "goal": "",
+      "done": [
+        "ফাউন্ডার কার্ড",
+        "Taseen ও Chaity",
+        "ড্যাশবোর্ড অডিট"
+      ],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "সাইট ও ড্যাশবোর্ড মিল রাখা",
+      "owner": "Tech Lab — Zane",
+      "freq": "daily",
+      "status": "pending",
+      "goal": "চলমান: প্রতিটি পরিবর্তনে ওয়েবসাইট ও ড্যাশবোর্ড মিলিয়ে রাখা",
+      "done": [],
+      "pending": [],
+      "issues": [],
+      "updated": "৩০ অক্টোবর ২০২৬, সন্ধ্যা ৬:২৫ (ঢাকা)"
+    },
+    {
+      "title": "Reels pilot: ৩টা রিল/সপ্তাহ, ২ সপ্তাহ (প্রথমে Shorts + Instagram)",
+      "owner": "Short-form Video — Amatullah",
+      "freq": "one-off",
+      "status": "pending",
+      "goal": "Leo-র সাথে যৌথ · ২ নভেম্বরের পর শুরু: সপ্তাহে ৩টা রিল, ২ সপ্তাহ",
+      "done": [],
+      "pending": [
+        "২ নভেম্বর রাত ৯:২১-এর রিসেটের পর শুরু"
+      ],
+      "issues": [
+        "তাওসীফের অনুমোদন ছাড়া কিছুই পোস্ট হবে না"
+      ],
+      "updated": "৩১ অক্টোবর ২০২৬ (ঢাকা)",
+      "due": "২ নভেম্বর ২০২৬-এর পর শুরু"
+    }
+  ]
+}
